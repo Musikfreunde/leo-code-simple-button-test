@@ -1,0 +1,10 @@
+{
+  "/": {
+    "target": "http://localhost:8080/angular/helloworld",
+    "secure": true,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/": ""
+    }
+  }
+}

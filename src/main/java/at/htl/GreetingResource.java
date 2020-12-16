@@ -13,8 +13,8 @@ public class GreetingResource {
 
     @Path("/helloworld")
     @GET
-    @Produces(MediaType.TEXT_PLAIN)
+    @Produces(MediaType.APPLICATION_JSON)
     public String hello() {
-        return "Angular with Quarkus working! " ;
+        return "{\"text\": \"Angular with Quarkus working!\"}";
     }
 }

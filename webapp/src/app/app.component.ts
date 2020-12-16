@@ -11,7 +11,7 @@ export class AppComponent {
   constructor(private http: HttpClient) {}
   title = 'my-first-project';
   click(){
-    this.http.get<any>("http://localhost:8080/angular/helloworld").subscribe(() => console.log("clicked"));
+    this.http.get("http://localhost:8080/angular/helloworld").subscribe(() => console.log("clicked"));
   }
 
 }
